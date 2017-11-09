@@ -7,8 +7,6 @@ createReactClass = require('create-react-class')
 
 RNSearchBar = ReactNative.requireNativeComponent('RNSearchBar', null);
 
-PropTypes = React.PropTypes;
-
 NativeModules = ReactNative.NativeModules;
 
 SearchBar = createReactClass({
